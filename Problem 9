@@ -1,0 +1,14 @@
+#Create multiple inheritance
+class father:
+    def demo(self):
+        print("parent father")
+class mother:
+    def sample(self):
+        print("parent mother")
+class children(father,mother):
+    def example(self):
+        print("children")
+child=children()
+child.demo()
+child.sample()
+child.example()
