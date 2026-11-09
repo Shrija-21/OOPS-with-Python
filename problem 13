@@ -1,0 +1,8 @@
+class Student:
+    Name="Ravi"
+    Roll_no=101
+    Marks=85
+s=Student()
+print("Name:",s.Name)
+print("Roll No:",s.Roll_no)
+print("Marks:",s.Marks)
