@@ -1,0 +1,13 @@
+class Employee:
+    Employee_ID=23451
+    Name="Minnu"
+    Basic_salary=50000
+    def cal_salary(self):
+        HRA=self.Basic_salary*0.2
+        DA=self.Basic_salary*0.1
+        Total_salary=self.Basic_salary+HRA+DA
+        print("Total salary:",Total_salary)
+a=Employee()
+print("Employee_ID:23451")
+print("Name:Minnu")
+a.cal_salary()
